@@ -3,7 +3,7 @@
 // class subject that implement SplSubject
 // see http://php.net/manual/en/class.splsubject.php for more details
 
-class LoggingSubject implments SplSubject {
+class LoggingSubject implements SplSubject {
 
   // array for store the registered SplObserver
   private $splObject = [];
